@@ -835,8 +835,8 @@ var ReactDOM = __webpack_require__(16);
 var Home = __webpack_require__(25);
 var Navbar = __webpack_require__(26);
 
-ReactDOM.render(React.createElement(Navbar, null), document.getElementById("app"));
-ReactDOM.render(React.createElement(Home, null), document.getElementById("react-nav"));
+ReactDOM.render(React.createElement(Home, null), document.getElementById("app"));
+ReactDOM.render(React.createElement(Navbar, null), document.getElementById("react-nav"));
 
 /***/ }),
 /* 13 */
@@ -20258,19 +20258,19 @@ var Navbar = function (_React$Component) {
 		value: function render() {
 			return React.createElement(
 				"nav",
-				{ "class": "navbar navbar-expand-sm navbar-dark bg-primary mb-3" },
+				{ className: "navbar navbar-expand-sm navbar-dark bg-primary mb-3" },
 				React.createElement(
 					"div",
-					{ "class": "container" },
+					{ className: "container" },
 					React.createElement(
 						"a",
-						{ "class": "navbar-brand", href: "#" },
+						{ className: "navbar-brand", href: "#" },
 						"My App"
 					),
 					React.createElement(
 						"button",
 						{
-							"class": "navbar-toggler",
+							className: "navbar-toggler",
 							type: "button",
 							"data-toggle": "collapse",
 							"data-target": "#navbarNav",
@@ -20278,43 +20278,43 @@ var Navbar = function (_React$Component) {
 							"aria-expanded": "false",
 							"aria-label": "Toggle navigation"
 						},
-						React.createElement("span", { "class": "navbar-toggler-icon" })
+						React.createElement("span", { className: "navbar-toggler-icon" })
 					),
 					React.createElement(
 						"div",
-						{ "class": "collapse navbar-collapse", id: "navbarNav" },
+						{ className: "collapse navbar-collapse", id: "navbarNav" },
 						React.createElement(
 							"ul",
-							{ "class": "navbar-nav" },
+							{ className: "navbar-nav" },
 							React.createElement(
 								"li",
-								{ "class": "nav-item active" },
+								{ className: "nav-item active" },
 								React.createElement(
 									"a",
-									{ "class": "nav-link", href: "/" },
+									{ className: "nav-link", href: "/" },
 									"Home",
 									React.createElement(
 										"span",
-										{ "class": "sr-only" },
+										{ className: "sr-only" },
 										"(current)"
 									)
 								)
 							),
 							React.createElement(
 								"li",
-								{ "class": "nav-item" },
+								{ className: "nav-item" },
 								React.createElement(
 									"a",
-									{ "class": "nav-link", href: "/about" },
+									{ className: "nav-link", href: "/about" },
 									"About"
 								)
 							),
 							React.createElement(
 								"li",
-								{ "class": "nav-item" },
+								{ className: "nav-item" },
 								React.createElement(
 									"a",
-									{ "class": "nav-link disabled", href: "#" },
+									{ className: "nav-link disabled", href: "#" },
 									"Comming soon"
 								)
 							)
