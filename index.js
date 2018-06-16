@@ -13,7 +13,7 @@ app.get('/about', (req, res) => res.render('about'));
 
 app.get('*', (req, res) => res.status(404).send("404 Error - Page not found"));
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log('Magic is happening on port ' + String(PORT) + "...");
 });
